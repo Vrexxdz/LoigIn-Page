@@ -1,4 +1,5 @@
-# LoigIn-Page
+LogIn Page Code:
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -371,6 +372,17 @@ button{
   }
 }
 
+@media (max-width: 540px){
+  .Everything{
+    margin-left: 100px;
+  }
+
+  button{
+    margin-left: -630px;
+    margin-right: 460px;
+  }
+}
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -426,4 +438,6 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+
 
