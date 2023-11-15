@@ -1,0 +1,5 @@
+document.getElementById('showEmail').addEventListener('click', function(event) {
+    event.preventDefault(); 
+    document.getElementById('emailField').style.display = 'block';
+    document.getElementById('emailField').focus(); 
+  });
